@@ -1,0 +1,133 @@
+.bannerBgImage {
+    height: 99vh;
+    background: url("/images/index\ _back.gif");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.bannerText1 {
+    position: right;
+    color: black;
+}
+
+.bannerTitle{
+    font-size: 6rem;
+}
+
+.bannerDesc{
+    font-size: 2rem;
+}
+
+.card{
+    cursor: pointer;
+
+}
+
+.card:hover{
+    background-color: palevioletred;
+    border: 2px solid lightblue
+}
+
+.BIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover{
+    border: 2px solid lightblue;
+}
+
+.background{
+    background: #000000;
+    text-decoration: aliceblue;
+    font-display: white;
+  }
+
+footer {
+  background: #050028;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,3);
+  font-size: 16px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 28px;
+  margin: 0 auto;
+  max-width: 620px;
+  padding: 16px;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-bottom{
+    min-height: 30px;
+    margin-top: 32px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #1f1b3d;
+    font-size: 14px;
+    opacity: .8;
+}
+
+.logo{
+    max-width: 160px;
+    margin-bottom: 8px;
+}
+
+.logo1{
+    max-width: 60px;
+    margin-bottom: 8px;
+    width: 50px;
+    height: 50px;
+}
+
+
+h2{
+    text-align: left;
+    color: #d2d0e6;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+menu {
+    list-style-type: none;
+    padding: 0;
+    margin: o;
+}
+
+menu li {
+    margin-bottom: 16px;
+}
+
+
