@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prosuc</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    div1 {
+      color: black;
+      font-size: 20px;
+    }
+  </style>
+
+  <script>
+    function myClickFunction() {
+      var elementName = document.getElementById("click-demo");
+
+      //checks if the element style is italic 
+      //sets the style to italic if it isn't 
+      if (elementName.style.fontStyle != "italic") {
+        elementName.style.fontStyle = "italic";
+      }
+
+      //if the style is italic, change it to normal 
+      else {
+        elementName.style.fontStyle = "normal";
+      }
+    }
+
+  </script>
+</head>
+
+<body>
+  <!---- nav start ---->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <div>
+        <a class="navbar-brand" href="/index.html"><img class="logo"
+            src="images/ps-low-resolution-logo-color-on-transparent-background.png" href="#"></a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/login.html">College-login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!----- nav end-->
+
+  <!----- banner start-->
+
+  <section class="bannerBgImage" id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 bannerText">
+          <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+          <lord-icon src="https://cdn.lordicon.com/ajkxzzfb.json" trigger="morph"
+            colors="primary:#ffc738,secondary:#4bb3fd" state="morph-group" style="width:350px;height:350px">
+          </lord-icon>
+          <h1 class="bannerTitle">Welcome to Prosuc . . !!</h1>
+          <p class="bannerDesc">A Evolving application to connect the Students</p>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2 bg-transparent text-white" type="text" placeholder="Search"
+              aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0 btn-warning text-dark-emphasis "
+              type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!----- banner end-->
+
+
+  <!--- services start-->
+  <section>
+    <div class="container" id="Services">
+      <h1 class="text-center">Services</h1>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card my-3">
+            <div class="card-body">
+              <h3 class="card-title text-center">
+                <i class="bi bi-building-fill-check BIcon"></i>
+                <a href="Institutions.html">Institutions</a>
+              </h3>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, quas!
+                Voluptatibus doloribus officia, omnis, tempore maxime delectus quis aut temporibus laudantium nobis
+                adipisci minus dolorem odio modi placeat libero provident!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card my-3">
+            <div class="card-body">
+              <h3 class="card-title text-center"><i class="bi bi-bar-chart-fill BIcon"></i>Quizs</h3>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, quas!
+                Voluptatibus doloribus officia, omnis, tempore maxime delectus quis aut temporibus laudantium nobis
+                adipisci minus dolorem odio modi placeat libero provident!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card my-3">
+            <div class="card-body">
+              <h3 class="card-title text-center"><i class="bi bi-bookmark-check-fill BIcon"></i>Exams</h3>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, quas!
+                Voluptatibus doloribus officia, omnis, tempore maxime delectus quis aut temporibus laudantium nobis
+                adipisci minus dolorem odio modi placeat libero provident!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card my-3">
+            <div class="card-body">
+              <h3 class="card-title text-center"><i class="bi bi-image-alt BIcon"></i> Results</h3>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, quas!
+                Voluptatibus doloribus officia, omnis, tempore maxime delectus quis aut temporibus laudantium nobis
+                adipisci minus dolorem odio modi placeat libero provident!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card my-3">
+            <div class="card-body">
+              <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i>Web Developer</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, quas!
+                Voluptatibus doloribus officia, omnis, tempore maxime delectus quis aut temporibus laudantium nobis
+                adipisci minus dolorem odio modi placeat libero provident!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card my-3">
+            <div class="card-body ">
+              <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i>Web Developer</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, quas!
+                Voluptatibus doloribus officia, omnis, tempore maxime delectus quis aut temporibus laudantium nobis
+                adipisci minus dolorem odio modi placeat libero provident!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--- services end-->
+
+  <!---- About start-->
+  <section>
+    <div class class="container" id="about">
+      <h1 class="text-center">About Me</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="/images/Me.jpg" alt="passportPicture" class="card-img img-fluid">
+        </div>
+        <div1 id="click-demo" onclick="myClickFunction()" class="col-md-8">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus rerum debitis distinctio, voluptatibus
+            sequi nisi at obcaecati corrupti placeat consequatur maxime molestiae reprehenderit esse deleniti incidunt
+            aspernatur eos fugiat quasi beatae quia voluptatum dolor error suscipit. Neque facere, architecto blanditiis
+            tempora amet quae odit rem commodi pariatur laboriosam, ratione consequuntur consectetur recusandae, natus
+            vel enim molestias nostrum laborum fugiat alias veritatis adipisci. Ratione commodi itaque architecto. Ullam
+            architecto pariatur distinctio ex earum sed nostrum deleniti totam sapiente quibusdam quisquam cupiditate,
+            et aperiam excepturi nisi in culpa soluta quam, dicta facere. Eligendi ab, aliquam, veniam similique a,
+            maiores possimus voluptatibus vero voluptates nemo deserunt nisi autem? Hic, quam quod! Quaerat quia tempora
+            minima esse atque unde facilis omnis! Impedit odit error, quos provident commodi alias voluptate illum
+            facere accusantium ullam vitae quod nisi, reprehenderit nostrum distinctio optio consectetur ut maxime
+            laboriosam qui natus perspiciatis eos. Ipsa quo possimus, ex, ipsum itaque cum enim harum voluptas fuga quos
+            minima eum maiores accusamus nemo voluptatem! Fuga, sint? Sed porro sit voluptas ut tenetur id, at eveniet,
+            provident molestias eius, dolores quis? Optio libero corrupti quibusdam dolorem reprehenderit, molestiae
+            totam aliquid sequi ipsam ipsum blanditiis porro quisquam vitae illum voluptatem eveniet labore soluta
+            natus!</p>
+          <p>N.Venkat reddy, student of sri venkateshwara engineering college, persucing electrons and communication
+            engineering . Now i am doing IBM VERTUAL INTERNSHIP</p>
+
+
+          <div class="row">
+            <div class="col-md-6">
+              <li>Nmame: Venkat Reddy N</li>
+              <li>Age: 19</li>
+              <li>WEb Developer Intern</li>
+              <li>College: Sri Venkateshwara Engineering College</li>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li>Tenchnology Working on: Mern stack</li>
+                <li>Portfolio: <a href="http://www.google.com" traget="_blank" rel="noopener noreferrer"
+                    class="text-decoration-none">Click Here for Portfolio</a></li>
+              </ul>
+            </div>
+            <p>WebInvestors Relations Information about ICICI Bank's business initiatives. Annual Reports Information
+              about ICICI Bank's annual performance. Quarterly Financial Results …</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores qui eum adipisci assumenda officia ex
+              voluptatem consectetur similique blanditiis tenetur numquam quis optio aliquid quod maiores autem corrupti
+              atque laboriosam, est iure ab deserunt hic. Vero, optio error. Numquam minima nostrum blanditiis velit
+              harum tenetur magni, dolor voluptatibus expedita perspiciatis libero, corporis beatae praesentium vero
+              itaque, animi corrupti! Neque debitis iste architecto sit, nobis fugiat nihil porro incidunt esse nemo!
+              Repellat laudantium qui voluptas, debitis reiciendis impedit quisquam praesentium modi sunt exercitationem
+              corrupti commodi cumque facilis perspiciatis optio illo omnis at, dolor perferendis vero. Vero quis
+              perspiciatis beatae eveniet enim, voluptas error cumque at expedita quas, ut nisi autem voluptatum!
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quas enim, quia aliquid nesciunt vel
+              blanditiis dolores pariatur temporibus corporis ipsa optio neque nihil repudiandae omnis consequuntur
+              magni quam quae harum voluptatibus labore quo eius? Voluptates ratione pariatur nobis exercitationem
+              corrupti? Aliquam at dolor numquam, distinctio veritatis id! Dolore, facilis perspiciatis veritatis
+              necessitatibus rerum, corporis adipisci ratione nisi quis molestiae neque dignissimos, incidunt delectus!
+              Rem esse odit sed consequuntur corporis a expedita sapiente. Ea eius temporibus incidunt cum vitae
+              reiciendis in fuga impedit corrupti quaerat, asperiores magni vero provident, nobis odit. Mollitia ad
+              soluta assumenda eligendi laborum, recusandae quidem perferendis vel magnam aspernatur numquam non?
+              Similique soluta libero voluptas impedit quae mollitia, nam tempora. Eos deleniti necessitatibus sit
+              inventore accusantium similique eaque beatae debitis laudantium adipisci voluptatibus iure ipsam ipsum,
+              libero tenetur praesentium earum mollitia rerum culpa maiores! Esse voluptatum deserunt porro distinctio
+              eius labore recusandae, dolor quo beatae praesentium!</p>
+          </div>
+
+        </div1>
+      </div>
+    </div>
+  </section>
+  <!---- about end -->
+
+  <!--- footer start-->
+
+  <footer>
+
+    <section class="footer-section" id="contact">
+      <section>
+        <img class="logo" src="images/ps-low-resolution-logo-color-on-transparent-background.png" title='Logo'
+          alt='Logo' />
+      </section>
+      <section <span class='social-links'>
+        <a><img src="images/icons8-instagram-48.svg" title='Instagram' alt='Instagram' /></a>
+        <a><img src="images/icons8-facebook.svg" title='Facebook' alt='Facebook' /></a>
+        <a><img src="images/icons8-twitter.svg" title='Twitter' alt='Twitter' /></a>
+        </span>
+      </section>
+      <section>
+        <menu>
+          <h2>Prosuc</h2>
+          <li>
+            <a>Institutions</a>
+          </li>
+          <li>
+            <a>Students</a>
+          </li>
+          <li>
+            <a>Tests</a>
+          </li>
+        </menu>
+      </section>
+      <section>
+        <menu>
+          <h2>Company</h2>
+          <li>
+            <a>Blog</a>
+          </li>
+          <li>
+            <a>About us</a>
+          </li>
+          <li>
+            <a>Contact</a>
+          </li>
+        </menu>
+      </section>
+      <section class="footer-bottom">
+        © 2023 Prosuc ltd. 2023 All rights reserved
+      </section>
+    </section>
+  </footer>
+
+  <!---  end-->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

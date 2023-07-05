@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" id="Institutions">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style2.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!---- nav start ---->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <div>
+            <a class="navbar-brand" href="/index.html"><img src="data:image/png;base64,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" href="#"></a>
+            </div>
+          <b ><a class="navbar-brand" href="#">PROSUC</a></b>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/login.html">College-login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/login1.html">Student-login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    <!----- nav end-->
+    <div class="container">
+        <div class="card">
+          <div class="box">
+            <div class="content">
+              <h2>01</h2>
+              <h3><b>SVEC</b></h3>
+              <p>The only engineering college in suryapet. coleege is located near govt medical college. And is onn NH 65 have a confortable transport way</p>
+              <a href="college.html">Read More</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="box">
+            <div class="content">
+              <h2>02</h2>
+              <h3><b>KITS</b></h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="card">
+          <div class="box">
+            <div class="content">
+              <h2>03</h2>
+              <h3><b>MITS</b></h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+            <div class="box">
+              <div class="content">
+                <h2>04</h2>
+                <h3><b>MENA</b></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="box">
+              <div class="content">
+                <h2>05</h2>
+                <h3><b>GATE</b></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="box">
+              <div class="content">
+                <h2>06</h2>
+                <h3><b>SANA</b></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+        </div>
+
+      </div>
+    <!--- contact start-->
+
+    <section id="contact">
+        <nav class="navbar navbar-expand-lg bannerText1 ">
+          <div class="container-fluid align-text-bottom">
+            <h6>watsapp to <code>63040 82260</code></h6>
+            <h6>Email us at <code>rikhithreddy@gmail.com</code> </h6>
+            <h6 >Copyright® 2023</h6>
+            <div>
+              <a class="navbar-brand" href="/index.html"><img src="data:image/png;base64,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" href="#"></a>
+            </div>
+          </div>
+        </nav>
+    
+      </section>
+    
+        <!---contact end-->
+</body>
+</html>
