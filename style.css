@@ -1,6 +1,6 @@
 .bannerBgImage {
     height: 99vh;
-    background: url("/images/index\ _back.gif");
+    background: url("index\ _back.gif");
     background-size: cover;
     position: relative;
 }
