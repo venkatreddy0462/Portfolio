@@ -1,6 +1,5 @@
 .bannerBgImage {
     height: 99vh;
-    min-height: 30vh;
     background: url("index\ _back.gif");
     background-size: cover;
     position: relative;
@@ -10,6 +9,7 @@
     text-align: center;
     width: fit-content;
     position: absolute;
+    margin-top: 30px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
