@@ -1,5 +1,6 @@
 .bannerBgImage {
     height: 99vh;
+    transform: translate(-50%, -50%);
     background: url("index\ _back.gif");
     background-size: cover;
     position: relative;
@@ -8,7 +9,7 @@
 .bannerText {
     text-align: center;
     width: fit-content;
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
