@@ -69,7 +69,8 @@
   }
   
   .display-1 {
-    font-size: 160px;
+    min-block-size: 100px;
+    font-size: 75%;
     font-weight: 1000;
   
   }
